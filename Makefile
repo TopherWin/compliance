@@ -22,7 +22,7 @@ clean:
 	rm -rf exports/ opencontrols/
 
 pdf: exports
-	cd exports && gitbook pdf ./ ../assets/example.pdf
+	cd exports && gitbook pdf ./ ../exports/example.pdf
 
 serve: exports
 	cd exports && gitbook serve
@@ -34,4 +34,4 @@ opencontrols: opencontrol.yaml */component.yaml markdowns/*/*md markdowns/*md
 	-${CM} get
 
 coverage:
-	${CM} diff FredRAMP-low
+	${CM} diff low-risk.yaml
