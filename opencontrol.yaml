@@ -1,0 +1,12 @@
+schema_version: "1.0.0"
+name: compliance_101
+metadata:
+  description: compliance_101
+  maintainers:
+    - timkropp
+components:
+  - ./testcomponent
+standards:
+  - ./compliance101/frist/ncl.yaml 
+certifications:
+  - ./compliance101/audit/low-risk.yaml
