@@ -7,6 +7,6 @@ metadata:
 components:
   - ./testcomponent
 standards:
-  - ./compliance101/frist/ncl.yaml 
+  - ./compliance101/ncl/ncl.yaml 
 certifications:
   - ./compliance101/audit/low-risk.yaml

@@ -11,7 +11,6 @@ sections is like this:
 ```
 1	Information System Name/Title	1
 2	Information System Categorization	1
-3	Information System Owner	5
 4	Authorizing Official	5
 5	Other Designated Contacts	6
 6	Assignment of Security Responsibility	7
@@ -30,10 +29,7 @@ https://github.com/18F/cg-compliance/tree/master/markdowns
 
 ## How are images included?
 
-By including them with Markdown: ```![Waterfall SDLC Image](./Waterfall_model.png)```
+By including them with Markdown: ```![Image](./diagram.svg)```
 
-Like this: Let's not do the waterfall SDLC the way its typically understood:
+![Image](./diagram.svg)
 
-![Waterfall SDLC Image](./Waterfall_model.png)
-
-(NB: The original waterfall papers included iterative feedback loops, but those got lost over time)
