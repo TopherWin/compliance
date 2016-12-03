@@ -29,7 +29,7 @@ https://github.com/18F/cg-compliance/tree/master/markdowns
 
 ## How are images included?
 
-By including them with Markdown: ```![Image](./diagram.svg)```
+By including them with Markdown: ```![Image](./diagram.png)```
 
 ![Image](./diagram.svg)
 
