@@ -31,7 +31,7 @@ https://github.com/18F/cg-compliance/tree/master/markdowns
 
 By including them with Markdown: ```![Image](./diagram.png)```
 
-![Image](./diagram.svg)
+![Image](./diagram.png)
 
 ### Include the Gap analysis
 
