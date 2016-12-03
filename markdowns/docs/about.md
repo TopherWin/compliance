@@ -36,13 +36,3 @@ By including them with Markdown: ```![Image](./diagram.svg)```
 ### Include the Gap analysis
 
 by running the command ```make coverage``` the output of the gap analysis is appended to the markdown file
-
-Number of missing controls: 8
-ncl@AC-10
-ncl@AC-11
-ncl@AC-12
-ncl@AC-17
-ncl@AC-18
-ncl@AC-2
-ncl@AC-2 (10)
-ncl@AC-21

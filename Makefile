@@ -28,10 +28,10 @@ serve: exports
 	cd exports && gitbook serve
 
 exports: opencontrols
-	${CM} docs gitbook FredRAMP-low
+	${CM} docs gitbook low-risk
 
 opencontrols: opencontrol.yaml */component.yaml markdowns/*/*md markdowns/*md
 	-${CM} get
 
 coverage:
-	${CM} diff low-risk.yaml
+	rm ./markdowns/docs/about-the-ssp.md && touch ./markdowns/docs/about-the-ssp.md && cat ./markdowns/docs/about.md >> ./markdowns/docs/about-the-ssp.md && ${CM} diff low-risk >> ./markdowns/docs/about-the-ssp.md
