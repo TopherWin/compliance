@@ -2,188 +2,247 @@ name: ncl
 AC-1:
   family: AC
   name: Access Control Policy and Procedures
+  description: Access Control Policy and Procedures
 AC-10:
   family: AC
   name: Concurrent Session Control
+  description: "Description"
 AC-11:
   family: AC
   name: Session Lock
+  description: "Description"
 AC-11 (1):
   family: AC
   name: Session Lock | Pattern-Hiding Displays
+  description: "Description"
 AC-12:
   family: AC
   name: Session Termination
+  description: "Description"
 AC-14:
   family: AC
   name: Permitted Actions Without Identification or Authentication
+  description: "Description"
 AC-17:
   family: AC
   name: Remote Access
+  description: "Description"
 AC-17 (1):
   family: AC
   name: Remote Access | Automated Monitoring / Control
+  description: "Description"
 AC-17 (2):
   family: AC
   name: Remote Access | Protection of Confidentiality / Integrity Using Encryption
+  description: "Description"
 AC-17 (3):
   family: AC
   name: Remote Access | Managed Access Control Points
+  description: "Description"
 AC-17 (4):
   family: AC
   name: Remote Access | Privileged Commands / Access
+  description: "Description"
 AC-17 (9):
   family: AC
   name: Remote Access | Disconnect / Disable Access
+  description: "Description"
 AC-18:
   family: AC
   name: Wireless Access
+  description: "Description"
 AC-18 (1):
   family: AC
   name: Wireless Access | Authentication and Encryption
+  description: "Description"
 AC-19:
   family: AC
   name: Access Control For Mobile Devices
+  description: "Description"
 AC-19 (5):
   family: AC
   name: Access Control For Mobile Devices | Full Device / Container-Based Encryption
+  description: "Description"
 AC-2:
   family: AC
   name: Account Management
+  description: "Description"
 AC-2 (1):
   family: AC
   name: Account Management | Automated System Account Management
+  description: "Description"
 AC-2 (10):
   family: AC
   name: Account Management | Shared / Group Account Credential Termination
+  description: "Description"
 AC-2 (12):
   family: AC
   name: Account Management | Account Monitoring / Atypical Usage
+  description: "Description"
 AC-2 (2):
   family: AC
   name: Account Management | Removal of Temporary / Emergency Accounts
+  description: "Description"
 AC-2 (3):
   family: AC
   name: Account Management | Disable Inactive Accounts
+  description: "Description"
 AC-2 (4):
   family: AC
   name: Account Management | Automated Audit Actions
+  description: "Description"
 AC-2 (5):
   family: AC
   name: Account Management | Inactivity Logout
+  description: "Description"
 AC-2 (7):
   family: AC
   name: Account Management | Role-Based Schemes
+  description: "Description"
 AC-2 (9):
   family: AC
   name: Account Management | Restrictions on Use of Shared Groups / Accounts
+  description: "Description"
 AC-20:
   family: AC
   name: Use of External Information Systems
+  description: "Description"
 AC-20 (1):
   family: AC
   name: Use of External Information Systems | Limits on Authorized Use
+  description: "Description"
 AC-20 (2):
   family: AC
   name: Use of External Information Systems | Portable Storage Devices
+  description: "Description"
 AC-21:
   family: AC
   name: Information Sharing
+  description: "Description"
 AC-22:
   family: AC
   name: Publicly Accessible Content
+  description: "Description"
 AC-3:
   family: AC
   name: Access Enforcement
+  description: "Description"
 AC-4:
   family: AC
   name: Information Flow Enforcement
+  description: "Description"
 AC-4 (21):
   family: AC
   name: Information Flow Enforcement | Physical / Logical Separation of Information
-    Flows
+  description: "Description"
 AC-5:
   family: AC
   name: Separation of Duties
+  description: "Description"
 AC-6:
   family: AC
   name: Least Privilege
+  description: "Description"
 AC-6 (1):
   family: AC
   name: Least Privilege | Authorize Access to Security Functions
+  description: "Description"
 AC-6 (10):
   family: AC
   name: Least Privilege | Prohibit Non-privileged Users from Executing Privileged
-    Functions
+  description: "Description"
 AC-6 (2):
   family: AC
   name: Least Privilege | Non-Privileged Access For No security Functions
+  description: "Description"
 AC-6 (5):
   family: AC
   name: Least Privilege | Privileged Accounts
+  description: "Description"
 AC-6 (9):
   family: AC
   name: Least Privilege | Auditing Use of Privileged Functions
+  description: "Description"
 AC-7:
   family: AC
   name: Unsuccessful Logon Attempts
+  description: "Description"
 AC-8:
   family: AC
   name: System Use Notification
+  description: "Description"
 AT-1:
   family: AT
   name: Security Awareness and Training Policy and Procedures
+  description: "Description"
 AT-2:
   family: AT
   name: Security Awareness Training
+  description: "Description"
 AT-2 (2):
   family: AT
   name: Security Awareness | Insider Threat
+  description: "Description"
 AT-3:
   family: AT
   name: Role-Based Security Training
+  description: "Description"
 AT-4:
   family: AT
   name: Security Training Records
+  description: "Description"
 AU-1:
   family: AU
   name: Audit and Accountability Policy and Procedures
+  description: "Description"
 AU-11:
   family: AU
   name: Audit Record Retention
+  description: "Description"
 AU-12:
   family: AU
   name: Audit Generation
+  description: "Description"
 AU-2:
   family: AU
   name: Audit Events
+  description: "Description"
 AU-2 (3):
   family: AU
   name: Audit Events | Reviews and Updates
+  description: "Description"
 AU-3:
   family: AU
   name: Content of Audit Records
+  description: "Description"
 AU-3 (1):
   family: AU
   name: Content of Audit Records | Additional Audit Information
+  description: "Description"
 AU-4:
   family: AU
   name: Audit Storage Capacity
+  description: "Description"
 AU-5:
   family: AU
   name: Response to Audit Processing Failures
+  description: "Description"
 AU-6:
   family: AU
-  name: Audit Review, Analysis, and Reporting
+  name: "Audit Review, Analysis, and Reporting"
+  description: "Description"
 AU-6 (1):
   family: AU
-  name: Audit Review, Analysis, and Reporting | Process Integration
+  name: "Audit Review, Analysis, and Reporting | Process Integration"
+  description: "Description"
 AU-6 (3):
   family: AU
-  name: Audit Review, Analysis, and Reporting | Correlate Audit Repositories
+  name: "Audit Review, Analysis, and Reporting | Correlate Audit Repositories"
+  description: "Description"
 AU-7:
   family: AU
-  name: Audit Reduction and Report Generation
+  name: "Audit Reduction and Report Generation"
+  description: "Description"
 AU-7 (1):
   family: AU
   name: Audit Reduction and Report Generation | Automatic Processing
@@ -985,11 +1044,10 @@ SI-7:
   name: Software, Firmware, and Information Integrity
 SI-7 (1):
   family: SI
-  name: Software, Firmware, and Information Integrity | Integrity Checks
+  name: "Software, Firmware, and Information Integrity | Integrity Checks"
 SI-7 (7):
   family: SI
-  name: Software, Firmware, and Information Integrity | Integration of Detection and
-    Response
+  name: "Software, Firmware, and Information Integrity | Integration of Detection and Response"
 SI-8:
   family: SI
   name: Spam Protection

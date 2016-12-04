@@ -6,7 +6,7 @@
 #    `make clean serve`
 #
 # FIXME: Add rules so generated files are compared instead of their directories
-
+#
 CM = compliance-masonry
 GB = gitbook
 
