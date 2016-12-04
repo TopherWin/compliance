@@ -29,9 +29,9 @@ https://github.com/18F/cg-compliance/tree/master/markdowns
 
 ## How are images included?
 
-By including them with Markdown: ```![Image](./diagram.png)```
+By including them with Markdown: ```![Image](./diagram.svg)```
 
-![Image](./diagram.png)
+![Image](./diagram.svg)
 
 ### Include the Gap analysis
 

@@ -1,4 +1,3 @@
-### Summary.md
 
 This summary is the table of contents for material not automatically generated from OpenControls:
 
