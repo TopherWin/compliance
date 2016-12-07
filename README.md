@@ -1,14 +1,48 @@
+# Open Control Compliance-Masonry Test Project
+
+
+### Structure
+
+The project structure is setup like this:
+
+
+```
+.
+├── book.json # where you point gitbook to go (WIP)
+├── circle.yml # the circleCI hook
+├── Dockerfile # Compliance-Masonry in a Docker image 
+├── README.md # This project README# 
+├── script/ # the source gitbook files
+|   ├── bats_compliance.bats # the tests for Compliance-Masonry
+├── markdowns/ # The stuff for all the gitbook magic
+|   ├── README.md # mandatory
+|   └── SUMMARY.md # optional 
+	└── docs/ # contains all the SSP stuff
+	    ├── about-the-ssp.md # you summary stuff
+            └── *.png # the images for the SSP
+```
+
+
 ### Compliance Test Project
 
+This repository mocks [Opencontrols/freedonia-compliance](https://github.com/opencontrol)  The reason for creating a new repository that mocks the freedonia effort, is to customize a few things.
 
-This repository mocks [Opencontrols/freedonia-compliance](https://github.com/opencontrol)
+1) The documentation output
 
-The reason for creating a new repository that mocks the freedonia effort, is to customize a few things.
+- Appending gap analysis
 
-1) The documentation output (appending the control gaps to the documentation)
+2) The standards
 
-2) The standard controls (instead of NIST/FRIST - customize a standard)
+- Customize a standard (that mocks NIST and is local)
 
-3) The audit policy (instead of the AU Poicy - customize a low-risk policy)
+3) The certification
 
-4) Use a single repository instead of linked repositories (and format the YAML appropriately)
+- Customize a low-risk policy (that mocks the AU policy)
+
+4) Use a single repo
+
+- Remove the dependency on github links, keep it self contained
+
+5) Add Dockerfile, Add BATS tests, Add CI
+
+- Add some test cases for make sure Compiance-Masonry does it's thing
