@@ -1,22 +1,21 @@
 {
+	"root": "./exports",
 	"gitbook": "3.x.x",
 	"title": "Example Title",
 	"author": "John Smith",
 	"description": "My Example Description",
 	"language": "en",
 	"pdf": {
-		"fontSize": 8,
+		"fontSize": 16,
 		"fontFamily": "Courier",
-		"papersize": "legal"
+		"papersize": "letter"
+	},
+	"structure": {
+		"glossary": "GLOSSARY.md"
 	},
 	"section": {
 		"toc": {
-			"page": {
-				"display": "none"
-			}
+			"display": false
 		}
-	},
-	"plugins": [
-		"js-sequence-diagram-full@>=0.3.1"
-	]
+	}
 }
