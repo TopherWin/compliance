@@ -4,5 +4,6 @@ set -e
 . script/options.bash
 
 docker login -e ${mail} -u ${user} -p ${pass}
+docker tag ${COMPLIANCE_IMAGE} ${PUBLISHED_IMAGE}
 docker push ${PUBLISHED_IMAGE}
 docker logout
