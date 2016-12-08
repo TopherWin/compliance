@@ -9,9 +9,6 @@ echo $@ | grep '\--no-cache' &> /dev/null && options="$options --no-cache" || :
 echo "Creating opencontrol/compliance-masonry image"
 docker build $options -f dockerfiles/dockerfile-compliance -t ${COMPLIANCE_IMAGE} .
 
-echo "Creating staging data volume"
-docker create -v /opt/staging --name ${DATA_IMAGE} alpine true
-
 echo "Show all docker images"
 docker images
 
