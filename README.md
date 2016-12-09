@@ -44,15 +44,15 @@ This repository mocks [Opencontrols/freedonia-compliance](https://github.com/ope
 
 1) The documentation output
 
-- Appending gap analysis
+- Appending gap analysis (via Makefile)
 
 2) The standards
 
-- Customize a standard (that mocks NIST and is local)
+- Customize a standard (that mocks NIST and endpoint is local rather than github.)
 
 3) The certification
 
-- Customize a low-risk policy (that mocks the AU policy)
+- Customize a low-risk certification (that mocks the AU policy and endpoint is local rather than github.)
 
 4) Use a single repo
 
@@ -60,4 +60,4 @@ This repository mocks [Opencontrols/freedonia-compliance](https://github.com/ope
 
 5) Add Dockerfile, Add BATS tests, Add CI
 
-- Add some test cases for make sure Compiance-Masonry does it's thing
+- Add some test cases for make sure Compiance-Masonry does it's thing inside the container
