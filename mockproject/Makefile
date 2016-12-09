@@ -27,7 +27,7 @@ pdf: exports
 serve: exports
 	cd exports && gitbook serve
 
-exports: opencontrols
+exports: opencontrols coverage
 	${CM} docs gitbook low-risk
 
 opencontrols: opencontrol.yaml */component.yaml markdowns/*/*md markdowns/*md
