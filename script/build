@@ -7,7 +7,7 @@ options="--rm"
 echo $@ | grep '\--no-cache' &> /dev/null && options="$options --no-cache" || :
 
 echo "Creating opencontrol/compliance-masonry image"
-docker build $options -f dockerfiles/dockerfile-compliance -t ${COMPLIANCE_IMAGE} .
+docker build $options -f mock-project/dockerfiles/dockerfile-compliance -t ${COMPLIANCE_IMAGE} .
 
 echo "Show all docker images"
 docker images
