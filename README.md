@@ -61,3 +61,12 @@ This repository mocks [Opencontrols/freedonia-compliance](https://github.com/ope
 5) Add Dockerfile, Add BATS tests, Add CI
 
 - Add some test cases for make sure Compiance-Masonry does it's thing inside the container
+
+
+### To Do
+
+1) Add gitbook dependencies to the image
+
+2) create self contained execution of compliance-masonry with gitbook-serve and serve the page from the image
+
+3) create self contained execution of gitbook pdf creation and get the pdf out
