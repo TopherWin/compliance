@@ -1,0 +1,14 @@
+documentation_complete: false
+name: Test Policy
+schema_version: 3.0.0
+references:
+- name: Reference Policy Doc
+  path: https://github.com/cleanerbot
+satisfies:
+- control_key: AC-1
+  standard_key: ncl
+  covered_by: []
+  implementation_status: implemented
+  narrative:
+    - text: |
+        This text describes how our organization is meeting the requirements for the AC-1 Audit Control. PaperTrail is a SaaS for aggregation of audit log data across multiple systems and tiers
