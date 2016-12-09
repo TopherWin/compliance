@@ -1,5 +1,9 @@
 # Open Control Compliance-Masonry Test Project
 
+[![Circle CI](https://circleci.com/gh/cleanerbot/compliance.png?style=shield&circletoken=f426e413f206dc447eea29b759fd65c4c40a7904)](https://circleci.com/gh/cleanerbot/compliance/tree/master 'View CI builds')
+
+[![Download size](https://images.microbadger.com/badges/image/sometheycallme/compliance.svg)](http://microbadger.com/images/sometheycallme/compliance "View on microbadger.com")
+
 
 ### Structure
 
