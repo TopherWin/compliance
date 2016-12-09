@@ -1,8 +1,6 @@
 # Open Control Compliance-Masonry Test Project
 
-[![Circle CI](https://circleci.com/gh/:cleanerbot/:compliance/tree/:master.svg?style=shield&circle-token=:f426e413f206dc447eea29b759fd65c4c40a7904)
-
-(https://circleci.com/gh/cleanerbot/compliance 'View CI builds')
+[![Circle CI](https://circleci.com/gh/cleanerbot/compliance.png?circle-token=f426e413f206dc447eea29b759fd65c4c40a7904)](https://circleci.com/gh/cleanerbot/compliance/tree/master 'View CI builds')
 
 ### Structure
 
