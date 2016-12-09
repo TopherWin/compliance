@@ -11,27 +11,30 @@ The project structure is setup like this:
 
 ```
 .
-├── Dockerfile # Compliance-Masonry in a Docker image 
+└── dockerfiles/ # the images for the project
+    └──dockerfile-compliance # compliance-masonry from opencontrol.org
 ├── Makefile  # Makefile for CircleCI
 ├── README.md 
-├── book.json # where you point gitbook to go (WIP)
-├── circle.yml # the circleCI hook
-└── compliance101/ # the standards/certs from opencontrol mockups
-    ├── mock_standard.yml # the NIST800-53 mock
-    └── mock_certification.yml # the low risk mock control reqs   
-    └── dockerfiles/ # the images for the project
-        └──dockerfile-compliance # compliance-masonry from opencontrol.org
+├── circle.yml # CircleCI Config file
+└── mock-project
+    └── compliance101/ # the standards/certs from opencontrol mockups
+        ├── mock_standard.yml # the NIST800-53 mock
+        └── mock_certification.yml # the low risk mock control reqs   
     └── markdowns/ # The stuff for all the gitbook magic
         ├── README.md # mandatory
         └── SUMMARY.md # optional 
 	    └── docs/ # contains all the SSP stuff
 	        ├── about-the-ssp.md # you summary stuff
                 └── *.png # the images for the SSP
-    ├── node_modules/ # custom plugins for gitbook (WIP)
-        └──  *node_plugins* # such as JS Sequence diagrams - diagrams as code 
+        └── node_modules/ # custom plugins for gitbook (WIP)
+            └──  *node_plugins* # such as JS Sequence diagrams - diagrams as code 
     └── opencontrol.yaml # The root file for Compliance-Masonry to pull in materials
-└── script/ # the source for tests (BATS)
-    └── bats_compliance.bats # the tests for Compliance-Masonry & Docker image
+└── script/ # CircleCI make scripts & Unit tests
+    ├── build
+    ├── clean
+    ├── options.bash
+    ├── publish
+    └── bats_compliance.bats 
 ```
 
 
