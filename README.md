@@ -1,5 +1,6 @@
 # Open Control Compliance-Masonry Test Project
 
+https://circleci.com/gh/:cleanerbot/:compliance/tree/:master.svg?style=shield&circle-token=:f426e413f206dc447eea29b759fd65c4c40a7904
 
 ### Structure
 
