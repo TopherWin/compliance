@@ -70,3 +70,5 @@ This repository mocks [Opencontrols/freedonia-compliance](https://github.com/ope
 2) create self contained execution of compliance-masonry with gitbook-serve and serve the page from the image
 
 3) create self contained execution of gitbook pdf creation and get the pdf out
+
+4) Bring it all together
